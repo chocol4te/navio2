@@ -1,0 +1,14 @@
+[package]
+name = "navio2"
+version = "0.1.0"
+authors = ["Ferdia McKeogh <ferdia@mckeogh.tech>"]
+edition = "2018"
+
+[dependencies]
+mpu9250 = "0.12.0"
+ms5611 = "1.0.0"
+embedded-hal = "0.2.3"
+failure = "0.1.5"
+
+[dev-dependencies]
+rppal = { version = "0.11.2", features = ["hal"] }
